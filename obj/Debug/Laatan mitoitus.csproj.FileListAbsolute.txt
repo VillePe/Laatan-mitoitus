@@ -1,0 +1,28 @@
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\bin\Debug\Laatan mitoitus.exe
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\bin\Debug\Laatan mitoitus.pdb
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Properties.Resources.resources
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan mitoitus.csproj.GenerateResource.Cache
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan mitoitus.exe
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan mitoitus.pdb
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan_mitoitus.MainWindow.resources
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan mitoitus.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan_mitoitus.AsetuksetForm.resources
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan_mitoitus.RaudoitusForm.resources
+C:\Users\Ville\Documents\5_Csharp\Betoni 2 laatta\Laatan mitoitus\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Laskija.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan mitoitus.exe
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan mitoitus.pdb
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Laatan mitoitus.exe
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Laatan mitoitus.pdb
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan mitoitus.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.AsetuksetForm.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Laskija.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Properties.Resources.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.RaudoitusForm.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan mitoitus.csproj.GenerateResource.Cache
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Paaikkuna.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Formit.KaikkiRaudoitukset.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\obj\Debug\Laatan_mitoitus.Formit.Ohjeet.resources
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Tiedostot\Ohjeet\Ohjeet.html
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Tiedostot\Ohjeet\YleisetOhjeet.html
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Tiedostot\Ohjeet\TeklaOhjeet.html
+C:\Users\Ville\Documents\5_Csharp\Ristiinkantavat laatat\Laatan mitoitus\bin\Debug\Tiedostot\Ohjeet\Virheenkorjaus.html

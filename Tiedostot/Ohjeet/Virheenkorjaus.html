@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div style="font: bold 22px arial">
+        Virheenkorjaus
+    </div>
+    <br />
+    <br />
+    <div style="font: bold 17px arial">
+        Momentti
+    </div>
+    <br />
+    Kun "momentti" on valittuna virheenkorjausvalikosta, ohjelma aukaisee kenttää klikatessa ikkunoita 6 - 10 kappaletta.
+    Nämä ikkunat sisältävät laskennoissa käytettyjä arvoja, joita voidaan hyödyntää käsinlaskuja ja ohjelman toimivuutta tarkistaessa
+    <br />
+    Momentti-ikkunoita tulee 4-8 kappaletta riippuen siitä, onko kentällä yksi vai useampi tuentatapaus. <br />
+    Lopulliset kenttämomentit -ikkunoita tulee kaksi kappaletta, x:n suuntaan ja y:n suuntaan yhdet.<br /><br />
+    <b>Momentti-ikkuna</b> sisältää:
+    <br />
+    "Tapaus" - Kertoo mikä tuentatapaus kyseisellä laatalla on, eli mistä taulukosta alfan arvo pitää ottaa <br />
+    "Taulukkoindeksi" - kertoo mihin suuntaan ja mitä momenttia tällä hetkellä tarkastellaan. 0 tarkoittaa tukimomenttia y:n suuntaan ja 1 x:n suuntaan. 2 tarkoittaa kenttämomenttia
+    y:n suuntaan ja 3 x:n suuntaan <br />
+    "Sivujen suhde" - Kertoo sivujen suhteen <br />
+    "Pyöristys alas alfa" - Kertoo taulukosta haetun alfan arvon, kun sivujen suhde pyöristetään alaspäin. <br />
+    "Pyöristys ylös alfa" - Sama kuin alaspäin. Näitä arvoja käytetään alfan interpoloinnissa. <br />
+    "Interpolointikerroin" - Käytettävä interpolointikerroin, jota käytetään alfan interpolointia laskettaessa <br />
+    <br />
+    
+    <b>Kenttämomentti-ikkuna</b> sisältää:
+    <br />
+    "Myf" tai "Mxf" - Aiemmin laskettu kenttämomentti <br />
+    "Interpoloitu alfa" - Taulukosta haettu alfa mahdollisesti interpoloituna, jos sivujen suhteen arvon tarkkuus menee yli yhden desimaalin <br />
+    "Suunta" - Kertoo mihin suuntaan kyseessä oleva kenttämomentti vaikuttaa. 0 = vasen, 1 = ylös, 2 = oikea, 3 = alas <br />
+    "Korjauskerroin" - Taulukosta saatu korjauskerroin (mahdollisesti interpoloitu) <br />
+    "Tasaus" - Laskettu tukimomenttien tasausarvo kyseessä olevaan suuntaan <br />
+    "Lisäkerroin" - Kerroin on arvoltaan yksi, jos tukimomentin tasaus on negatiivinen, muuten haetaan taulukosta sopivalle tukimäärälle oikea arvo <br />
+    <br /><br />
+
+
+    <div style="font: bold 17px arial">
+        Jäykistys
+    </div>
+    <br />
+    Kun "jäykistys" on valittuna virheenkorjausvalikosta, ohjelma aukaisee kenttää klikatessa ikkunoita niin monta kuin kyseisellä kentällä on jäykkiä tukia
+
+
+    
+
+    <br /><br />
+    <a href="Ohjeet.html" style="color: rgb(0, 101, 242)">Takaisin</a>
+
+</body>
+</html>

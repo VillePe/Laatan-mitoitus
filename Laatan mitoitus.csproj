@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23F54DAB-2D8D-42AA-AE7A-2CCA38F33B71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Laatan_mitoitus</RootNamespace>
+    <AssemblyName>Laatan mitoitus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tekla.Structures, Version=21.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Catalogs, Version=21.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.Catalogs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Dialog, Version=21.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.Dialog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Drawing, Version=21.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Model, Version=21.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Plugins">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TeklaStructuresLearning\21.1\nt\bin\plugins\Tekla.Structures.Plugins.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asetukset.cs" />
+    <Compile Include="Formit\AsetuksetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\AsetuksetForm.Designer.cs">
+      <DependentUpon>AsetuksetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formit\KaikkiRaudoitukset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\KaikkiRaudoitukset.Designer.cs">
+      <DependentUpon>KaikkiRaudoitukset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formit\Ohjeet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\Ohjeet.Designer.cs">
+      <DependentUpon>Ohjeet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarjaterasRyhma.cs" />
+    <Compile Include="Formit\Laskija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\Laskija.Designer.cs">
+      <DependentUpon>Laskija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kentta.cs" />
+    <Compile Include="Mallintaja.cs" />
+    <Compile Include="Formit\Paaikkuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\Paaikkuna.Designer.cs">
+      <DependentUpon>Paaikkuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raudoittaja.cs" />
+    <Compile Include="Formit\RaudoitusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formit\RaudoitusForm.Designer.cs">
+      <DependentUpon>RaudoitusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tiedostonkasittelija.cs" />
+    <Compile Include="Verkko.cs" />
+    <EmbeddedResource Include="Formit\AsetuksetForm.resx">
+      <DependentUpon>AsetuksetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formit\KaikkiRaudoitukset.resx">
+      <DependentUpon>KaikkiRaudoitukset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formit\Laskija.resx">
+      <DependentUpon>Laskija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formit\Ohjeet.resx">
+      <DependentUpon>Ohjeet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formit\Paaikkuna.resx">
+      <DependentUpon>Paaikkuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Formit\RaudoitusForm.resx">
+      <DependentUpon>RaudoitusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Laatasto.PNG" />
+    <Content Include="Tiedostot\Ohjeet\TeklaOhjeet.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tiedostot\Ohjeet\Virheenkorjaus.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tiedostot\Ohjeet\YleisetOhjeet.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\RaudoitusUusi.png" />
+    <None Include="Resources\Raudoitus.png" />
+    <None Include="Resources\Qd1.png" />
+    <None Include="Resources\Qd.png" />
+    <None Include="Resources\Pd.png" />
+    <None Include="Resources\Kuormat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiedostot\Ohjeet\Ohjeet.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
