@@ -5,4 +5,6 @@ Tietynmuotoisen laattakentän laskemiseen (koulun harjoitustyötä varten) tehty
 Ohjelma laskee BY202 taulukoiden mukaisesti kentälle momenttivoimat sekä laskee niiden perusteella raudoituksen laatastolle.
 Ohjelma mahdollistaa myös laataston ja raudoitusten mallintamisen Teklaan, mutta tätä varten joutuu referenssit ohjaamaan kääntäessä Teklan plugin kansioon.
 
+Ensimmäinen itsenäisesti toteutettu pieni projekti muutaman kirjan kahlauksen ja nettitutoriaalien jälkeen.
+
 ![Screenshot] (https://github.com/VillePe/Laatan-mitoitus/blob/master/Resources/Laatasto.PNG?raw=true)
